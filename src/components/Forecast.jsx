@@ -21,7 +21,7 @@ function Forecast() {
               <div className='h-9 flex justify-center items-center font-bold uppercase text-md pb-3'>
                 {new Date(el.datetime).toDateString().split(" ")[0]}
               </div>
-              <div className='bg-blue-800 rounded-full h-20 flex justify-center items-center'>
+              <div className='bg-blue-00 rounded-full h-20 flex justify-center items-center'>
                 <img
                   src={`https://www.weatherbit.io/static/img/icons/${el.weather.icon}.png`}
                   alt=''
@@ -29,11 +29,11 @@ function Forecast() {
                 />
               </div>
               <div className='flex justify-between items-center font-bold pt-3'>
-                <div className='text-blue-700'>
+                <div className='text-blue-600'>
                   {weather.data[i].min_temp}
                   <sup>°C</sup>
                 </div>
-                <div className='text-blue-900'>
+                <div className='text-blue-800'>
                   {weather.data[i].max_temp}
                   <sup>°C</sup>
                 </div>

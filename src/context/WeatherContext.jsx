@@ -10,7 +10,7 @@ export function WeatherProvider({ children }) {
     const getWeatherData = async () => {
       try {
         const data = await axios(
-          `https://api.weatherbit.io/v2.0/forecast/daily?city=${`${location},tr`}&key=7dd8a708d1d348fdacf9bebe21501746&lang=tr`
+          `https://api.weatherbit.io/v2.0/forecast/daily?city=${`${location},tr`}&key=e31fa12bf84048fea092a1dff465f9ff&lang=tr`
         );
         setWeather(data.data);
       } catch (error) {

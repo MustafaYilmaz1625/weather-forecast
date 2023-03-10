@@ -36,7 +36,7 @@ function Location() {
         <br />
         <button
           type='submit'
-          className='bg-blue-700 text-white border-none  px-4 mr-4 rounded-lg hover:bg-blue-600 h-7 show'
+          className='bg-blue-500 text-white border-none  px-4 mr-4 rounded-lg hover:bg-blue-400 h-7 show'
           onClick={handleClick}
         >
           Submit
